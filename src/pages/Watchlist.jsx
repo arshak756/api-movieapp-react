@@ -12,7 +12,7 @@ const Watchlist = () => {
     const fetchGenres = async () => {
       try {
         const res = await fetch(
-          `https://api.themoviedb.org/3/genre/movie/list?api_key=0bfd49c09ac504e42203c3655fd21170&language=en-US`
+          `https://api.themoviedb.org/3/genre/movie/list?api_key=0fc124d13fe68da19b92d39e3e5e2353&language=en-US`
         );
         const data = await res.json();
         setGenres(data.genres);
