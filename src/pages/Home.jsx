@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import Moviecard from "../components/Moviecard";
 
-const API_KEY = "0bfd49c09ac504e42203c3655fd21170";
+const API_KEY = "0fc124d13fe68da19b92d39e3e5e2353";
 
 const Home = () => {
   const [movies, setMovies] = useState([]);
